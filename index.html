@@ -20,7 +20,7 @@
                 
                 <div class="nav">
                     <ul>
-                        <li><a href="#features">Features</a></li>
+                        <li><a href="#feature">Features</a></li>
                         <li><a href="#how-it-works">How It Works</a></li>
                         <li><a href="#pricing">Pricing</a></li>
                         <li><a href="#faq">FAQ</a></li>
@@ -44,17 +44,18 @@
 
     <main>
         <section id="hero" class="hero">  
-            <div>
+            <div class="hero-container">
                 <h1>Organize Your Work. Master Your Focus.</h1>
                 <p>FocusFlow helps individuals and small teams manage tasks, eliminate distractions, and track progress — all in one powerful workspace.</p>
                 
-                
-                <a href="#s3" class="btn hero-btn">Get Started Free</a>
-                <a href="#s2" class="btn hero-btn">See How It Works</a>
-                
-                <div>
-                    <img src="" alt="">
+                <div class="hero-btn-container">    
+                    <a href="#pricing" class="btn hero-btn">Get Started Free</a>
+                    <a href="#how-it-works" class="btn hero-btn btn-secondary">See How It Works</a>
                 </div>
+                    
+                <!-- <div>
+                    <img src="" alt="">
+                </div> -->
             </div>
         </section>
 
@@ -64,28 +65,28 @@
                 <h2>Everything You Need to Stay Productive</h2>
                 <p>Powerful features designed to help you focus deeper and work smarter.</p>
                 <div class="feature-cards">
-                    <div class="inner-fc">
+                    <div class="inner-card">
                         <h3>Smart Task Management</h3>
                         <p>Create, organize, and prioritize tasks with an intuitive drag-and drop interface.</p>
                         <img src="" alt="">
                     </div>
                     
-                    <div class="inner-fc">
+                    <div class="inner-card">
                         <h3>Focus Sessions</h3>
                         <p>Use built-in focus timers to eliminate distractionsand stay in deep work mode.</p>
-                        <p class="font-effect-neon">Lock In!!!</p>
+                        <button class="font-effect-neon">Lock In!!!</button>
                         
                         <img src="" alt="">
                     </div>
                     
-                    <div class="inner-fc">
+                    <div class="inner-card">
                         <h3>Progress Analytics</h3>
                         <p>Track your productivity trends with clear, visual insights.</p>
                         
                         <img src="" alt="">
                     </div>
                 
-                    <div class="inner-fc">
+                    <div class="inner-card">
                         <h3>Team Collaborations</h3>
                         <p>Share projects, assign tasks, and collaborate seamlessly in real-time</p>
                         
@@ -101,23 +102,25 @@
 
                 <h2>Simple. Fast. Efficient.</h2>
                 <p>Just three clicks away</p>
-                <div>
-                    <div>
-                        <span>
-                            <h3>Steps</h3>
-                            <p>[01]</p>
-                        </span>
+                <div class="h-i-w">
+                    <h3>Steps</h3>
+                    <div class="inner-card">
+                        <p>[01]</p>
+                       
                         <p>Create your workspace and add tasks in seconds.</p>
                         <img src="" alt="">
                     </div>
                     
-                    <div>
-                        <span><p>[02]</p></span>
+                    <div class="inner-card">
+                        <p>[02]</p>
+
                         <p>Organize tasks into focused sessions and eliminate distractions.</p>
                         <img src="" alt="">
                     </div>
-                    <div>
-                        <span><p>[03]</p></span>
+
+                    <div class="inner-card">
+                        <p>[03]</p>
+
                         <p>Track progress and improve your productivity over time.</p>
                         <img src="" alt="">
                     </div>
@@ -128,131 +131,134 @@
         </section>
 
         <section id="pricing" class="pricing ">  
-            <div class="section-container">
+            <div class="section-container pricing-container">
 
                 <h2>Simple Pricing for everyone!</h2>
                 
-                <div>
-                    <h3>Basic Plan</h3>
-                    <p>Free</p>
-                    <p>Perferct for individuals starting their productivity journey</p>
-                    
-                    <ul> 
+                <div class="price-container">
+                    <div>
+                        <h2>Basic Plan</h2>
+                        <p>Free</p>
+                        <p>Perferct for individuals starting their productivity journey</p>
+                            
+                        <ul> 
                         <li>Up to 10 tasks</li>
                         <li>Basic analytics</li>
                         <li>Focus timer</li>
                         <li>Email support</li>
-                    </ul>
-                    
-                    <button>Get Started</button>
-                </div>
-                <div><!--I will highlight this later.-->
-                    <h3>Pro Plan</h3>
-                    <p>$12/month</p>
-                    <p>Advanced analytics, team features, and unlimited projects</p>
-                    
-                    <ul>
-                        <li>Unlimited tasks</li>
-                        <li>Advanced analytics</li>
-                        <li>Team collaboration</li>
-                        <li>Priority support</li>
-                        <li>Custom themes</li>
-                    </ul>
-                    
-                    <button>Get Started</button>
-                </div>
-                <div>
-                    <h3>Enterprise Plan</h3>
-                    <p>Custom Pricing</p>
-                    <p>Built for growing teams and organizations</p>
-                    
-                    <ul>
-                        <li>Everthing in Pro</li>
-                        <li>Dedicated account manager</li>
-                        <li>Advanced security</li>
-                        <li>Custom integrations</li>
-                        <li>24/7 support</li>
-                    </ul>
-                    
-                    <button>Get Started</button>
+                        </ul>
+                        
+                        <button>Get Started</button>
+                    </div>
+                    <div><!--I will highlight this later.-->
+                        <h2>Pro Plan</h2>
+                        <p>$12/month</p>
+                        <p>Advanced analytics, team features, and unlimited projects</p>
+                        
+                        <ul>
+                            <li>Unlimited tasks</li>
+                            <li>Advanced analytics</li>
+                            <li>Team collaboration</li>
+                            <li>Priority support</li>
+                            <li>Custom themes</li>
+                        </ul>
+                        
+                        <button>Get Started</button>
+                    </div>
+                    <div>
+                        <h2>Enterprise Plan</h2>
+                        <p>Custom Pricing</p>
+                        <p>Built for growing teams and organizations</p>
+                        
+                        <ul>
+                            <li>Everthing in Pro</li>
+                            <li>Dedicated account manager</li>
+                            <li>Advanced security</li>
+                            <li>Custom integrations</li>
+                            <li>24/7 support</li>
+                        </ul>
+                        
+                        <button>Get Started</button>
+                    </div>
                 </div>
             </div>
             
         </section>
 
         <section id="faq" class="faq">
-          <div class="section-container">
+          <div class="section-container ">
               
               <h2>Freaquently Asked Questions</h2>
               
-              <div>
-                  <h3>Q1: Is FocusFlow free to use?</h3>
-                  <p>Yes, we offer a free plan with essential productivity features.</p>
-                  
+              <div class="faq-container">
+
+                  <div class="faq-item">
+                      <h3 class="faq-question">Q1: Is FocusFlow free to use?</h3>
+                  <p class="faq-answer faq-hidden">Yes, we offer a free plan with essential productivity features.</p> 
                 </div>
                 
-                <div>
-                    <h3>Q2: Can I use FocusFlow with my team?</h3>
-                    <p>Absolutely. Our Pro and Enterprise plans support team collaboration.</p>
+                <div class="faq-item">
+                    <h3 class="faq-question">Q2: Can I use FocusFlow with my team?</h3>
+                    <p class="faq-answer faq-hidden">Absolutely. Our Pro and Enterprise plans support team collaboration.</p>
                 </div>
                 
-                <div>
-                    <h3>Q3: Does FocusFlow work on mobile?</h3>
-                    <p>Yes, FocusFlow is fully responsive and works across devices.</p>
+                <div class="faq-item">
+                    <h3 class="faq-question">Q3: Does FocusFlow work on mobile?</h3>
+                    <p class="faq-answer faq-hidden">Yes, FocusFlow is fully responsive and works across devices.</p>
                     
                 </div>
                 
-                <div>
-                    <h3>Q4: Is my data secure?</h3>
-                    <p>We use industry-standard encryption to keep your data safe</p>
+                <div class="faq-item">
+                    <h3 class="faq-question">Q4: Is my data secure?</h3>
+                    <p class="faq-answer faq-hidden">We use industry-standard encryption to keep your data safe</p>
                     
                 </div>
             </div>
+        </div>
             
         </section>
 
-        <section id="contact" class="contact">
-            <div class="section-container">
-
-                
-                <h2>Let's Help You Stay Focused</h2>
-                <p>Have questions? Get in touch with our team and we'll respond with 24hrs.</p>
-                
-                <form action="" method="post" autocomplete="on">
-                    <label for="name">FullName:</label>
-                    <input type="text" id="name" name="fullName" required>
-                    
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="Email" required>
-                    
-                    <label for="message">Message:</label>
-                    <textarea name="Message" id="message"></textarea>
-                    
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-            
-        </section>
     </main>
+    <section id="contact" class="contact" hidden>
+        <div class="section-container">
+
+            
+            <h2>Let's Help You Stay Focused</h2>
+            <p>Have questions? Get in touch with our team and we'll respond with 24hrs.</p>
+            
+            <form action="" method="post" autocomplete="on">
+                <label for="name">FullName:</label>
+                <input type="text" id="name" name="fullName" required>
+                
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea name="Message" id="message"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+    </section>
 
     <footer class="main-footer">
         <div>
-            <p>FocusFlow</p>
-            <p>Organize. Focus. Achieve.</p>
+            <p><span>FocusFlow</span> Organize. Focus. Achieve.</p>
         </div>
 
         <nav class="quick-links">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>❄️</li>
+                <li>ℹ️</li>
+                <li>❎</li>
             </ul>
         </nav>
 
         <p>&copy;2026 FocusFlow. All rights reserved!</p>
 
     </footer>
-
+<!-- <div class="height"></div> -->
     <script src="js/script.js"></script>
 </body>
 </html>
